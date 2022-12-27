@@ -1,0 +1,491 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', sans-serif;
+  text-decoration: none;
+}	
+body
+{
+	background-color:#d8c2ff;
+
+}
+main
+	{
+		background-color: #d8c2ff;
+	}
+main h1
+	{
+		font-size: 30px;
+		text-align: center;
+		font-weight: Bold;
+	}
+	.info
+	{
+		display: flex;
+		justify-content: center;
+	}
+.info-1
+	{
+		width: 100%;
+		display: flex;	
+		justify-content: space-between;
+		flex-wrap: wrap; /* перенос */
+		margin-top:15px;
+	}
+.block
+	{
+		width: 50%;
+		padding: 30px;
+	}
+.title h1
+	{
+		text-align: center;
+		font-size: 40px;
+		color: black;
+	}
+.list-menu a
+	{
+		padding: 15px;
+		font-size: 25px;
+		color: black;
+		transition: box-shadow 0.3s ease-in-out, transform 0.2s ease-in-out;
+		margin: 25px;
+		float: none;
+		display: block;
+		text-align: left;
+	}
+.list-menu a:hover
+	{
+		border: 1px solid black;
+		border-radius: 30px;
+		box-shadow: 0px 14px 30px rgba(0, 0, 0, 0.3);
+    	transform: translateY(-5px);
+	}
+
+.menu 
+	{
+		display: flex;
+		flex-direction: column;
+		right: -700px;
+		transition: all 2s ease;
+		width: 40%;
+		padding: 5vh 50px;
+		height: 100%;
+		position: fixed;
+		background: rgba(20, 20, 20, 0.1);	
+		border-right: 7px solid #fcfcfc;
+		background: url(img/menu.png);
+	}
+.menu:hover
+	{
+		right: 0;
+		transition: all 2s ease;
+	}
+.background-menu
+	{
+		width: 100vw;
+		height: 100vh;
+		overflow: hidden;
+	}
+.footer-menu p
+	{
+		margin-top: -20px;
+		text-align: center;
+		font-family: 'Great Vibes', cursive;	
+		font-size: 50px;
+	}
+.social-media
+{
+	display: flex;
+		justify-content: center;
+}
+.social-media p
+	{
+		text-decoration: none;
+		color: black;
+		text-align: center;
+		font-family: Arial, Helvetica, sans-serif;
+		font-size: 50px;
+		font-weight: bold;
+		letter-spacing: 5px;
+		padding: 10px;
+		padding-right: 5px;
+		border: 5px solid black;
+		border-radius: 15px;
+
+	}
+
+.list-menu
+	{
+		margin-bottom: 50px;
+	}
+
+.top-main img
+	{
+		height: 300px;
+		width: 100%;
+	}
+.mgsu-main
+	{
+		display: flex;
+		justify-content: center;
+	}
+.mgsu-block
+	{
+		width: 85%;
+		display: flex;	
+		justify-content: space-between;
+		flex-wrap: wrap; /* перенос */
+		margin-top:15px;
+	}
+.mgsu-info
+	{
+		width: 50%;
+		padding: 30px;
+	}
+.mgsu-main img
+	{
+		width: 70%;
+		height: 70%;
+	}
+.mgsu-1 b
+	{
+		font-size: 30px;
+		letter-spacing: 2px;
+		padding-bottom: 5px;
+	}
+.mgsu-1
+	{
+		margin-top: 30px;
+		padding:25px;
+		background-color: #f3f3f3;
+		border: 1px solid #f3f3f3;
+		border-radius: 25px;
+	}
+.mgsu-1-photo img
+	{
+		border-radius: 50px; /* Радиус скругления */
+    	border: 3px solid grey; /* Параметры рамки */
+    	box-shadow: 0 0 7px #f3f3f3; /* Параметры тени */
+	}
+.mgsu-1-photo p
+	{
+		font-weight: 400;
+		width: 60%;
+		margin-left:30px ;
+		text-align: center;
+	}
+.mgsu-2 b
+	{
+		font-size: 30px;
+		padding-bottom: 5px;
+		
+	}
+.mgsu-2
+	{
+		color: black;
+		padding:25px;
+		background-color: rgba(58, 141, 167,1);
+		border: 5px solid  white ;
+		border-radius:20px;
+	}
+.mgsu-2-photo
+	{
+		margin-right: -65px;
+		text-align: right;
+	}
+.mgsu-2-photo img
+	{
+		margin-top: 10px;
+		width: 50%;
+		height: 500px;
+	}
+.social-media-mgsu
+	{
+		margin-top: 20px;
+		display: flex;
+		text-align: center;
+		justify-content: center;
+		width: 50%;
+	}
+.social-media-mgsu img
+	{
+		width: 50%;
+	}
+	.arrowUp {
+		position: fixed;
+		bottom: 13%;
+		right: 4%;
+		width: 70px;
+		height: 70px;
+		background: linear-gradient(130deg, #d8c2ff 50%, white 50%);
+		-webkit-background-size: 300%;
+		background-size: 300%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		text-decoration: none;
+		font-size: 50px;
+		border-radius: 5px;
+		transition: .5s;
+	  }
+	  
+	  .arrowUp:hover {
+		opacity: 1;
+		background-position: 100% 0;
+	  }
+
+	  .arrowUp img
+	  {	 width: 70px;
+		height: 70px;}
+.arrow {
+			opacity: 1;
+			position: fixed;
+			bottom: 13%;
+			right: 4%;
+			width: 70px;
+			height: 70px;
+			background: linear-gradient(130deg, #d8c2ff 50%, #d8c2ff 50%);
+			-webkit-background-size: 300%;
+			background-size: 300%;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			text-decoration: none;
+			font-size: 50px;
+			border-radius: 5px;
+			transition: .5s;
+		  }
+		  
+ .arrow:hover {
+			opacity: 0;
+			background-position: 100% 0;
+		  }
+	
+.arrow img
+		  {	 width: 70px;
+			height: 70px;}
+
+
+.home {
+				position: fixed;
+				bottom: 5%;
+				right: 4%;
+				width: 70px;
+				height: 70px;
+				background: linear-gradient(130deg, #d8c2ff 50%, white 50%);
+				-webkit-background-size: 300%;
+				background-size: 300%;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				text-decoration: none;
+				font-size: 50px;
+				border-radius: 5px;
+				transition: .5s;
+			  }
+			  
+			  .home:hover {
+				opacity: 1;
+				background-position: 100% 0;
+			  }
+		
+			  .home img
+			  {	 width: 70px;
+				height: 70px;}
+		.home2 {
+					opacity: 1;
+					position: fixed;
+					bottom:5%;
+					right: 4%;
+					width: 70px;
+					height: 70px;
+					background: linear-gradient(130deg, #d8c2ff 50%, #d8c2ff 50%);
+					-webkit-background-size: 300%;
+					background-size: 300%;
+					display: flex;
+					justify-content: center;
+					align-items: center;
+					text-decoration: none;
+					font-size: 50px;
+					border-radius: 5px;
+					transition: .5s;
+				  }
+				  
+		 .home2:hover {
+					opacity: 0;
+					background-position: 100% 0;
+				  }
+			
+		.home2 img
+				  {	 width: 70px;
+					height: 70px;
+}
+@media screen and (max-width: 1900px)
+	{
+		.menu
+			{
+				width: 30%;
+				right: -510px;
+			}
+		.list-menu a
+			{
+				padding: 18px;
+				font-size: 18px;
+				margin: 10px 0;
+				margin-left: 15px;
+			}
+		
+	}
+@media screen and (max-width: 1715px)
+	{
+		.menu
+			{
+				width: 30%;
+				right: -430px;
+			}
+	}
+@media screen and (max-width: 1515px) /* Делаем определенные настройки для экранов меньше 1515px */
+	{
+		.list-menu a
+			{
+				padding: 15px;
+				font-size: 18px;
+				margin: 10px 0;
+				margin-left: 15px;
+			}
+		.menu
+			{
+				width: 30%;
+				right: -400px;
+			}
+	}
+@media screen and (max-width: 1400px)
+	{
+		.list-menu a
+			{
+				padding: 5px;
+				font-size: 14px;
+				margin: 10px 0;
+				margin-left: 15px;
+			}
+		.menu
+			{
+				right: -370px;
+				width: 30%;
+			}
+		.mgsu-block
+		{
+			width: 65%;
+		}
+	}
+@media screen and (max-width: 1300px)
+	{
+		.list-menu a
+			{
+				padding: 5px;
+				font-size: 14px;
+				margin: 10px 0;
+				margin-left: 15px;
+			}
+		.menu
+			{
+				right: -330px;
+				width: 30%;
+			}
+			.info-1
+			{
+				display: block;
+			}
+			.info-1 img
+			{
+				width: 100%;
+				height: 100%;
+			}
+	}
+@media screen and (max-width: 1200px) /* Делаем определенные настройки для экранов меньше 1200px */
+	{
+		.list-menu a
+			{
+				padding: 5px;
+				font-size: 14px;
+				margin: 10px 0;
+				margin-left: 15px;
+			}
+		.menu
+			{
+				right: -300px;
+				width: 30%;
+			}
+			.mgsu-block
+			{
+				width: 55%;
+			}
+	}
+@media screen and (max-width: 1100px)
+	{
+		.menu
+			{
+				right: 0;
+				width: 30%;
+			}
+			.list-menu a
+			{
+				padding: 0px;
+				font-size: 14px;
+				margin: 0px 0;
+				margin-left: 15px;
+			}
+			.footer-menu
+				{
+					font-size: 10px;
+				}
+				.mgsu-main
+				{
+					display: block;
+					flex-direction: column;
+				}
+				.mgsu-main
+					{
+						display: block;
+						justify-content: center;
+						flex-direction: column;
+					}
+	}
+@media screen and (max-width: 900px)
+	{
+		.menu
+			{
+				right: 0;
+				width: 30%;
+			}
+			.list-menu a
+			{
+				padding: 0px;
+				font-size: 14px;
+				margin: 0px 0;
+				margin-left: 20px;
+			}
+			.footer-menu
+				{
+					font-size: 10px;
+				}
+				.mgsu-main
+				{
+					display: grid;
+					flex-direction: column;
+				}
+				.mgsu-main
+					{
+						display: grid;
+						justify-content: center;
+						flex-direction: column;
+					}
+					.mgsu-info
+					{
+						width: 100%;
+						padding: 30px;
+					}
+	}
+
