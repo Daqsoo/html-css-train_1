@@ -1,1 +1,1 @@
-train project of beginner skills
+training project of beginner skills
